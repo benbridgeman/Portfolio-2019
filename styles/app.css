@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+p {
+  color: #333;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=app.css.map */
