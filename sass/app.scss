@@ -1,3 +1,9 @@
+/* Global styles */
 @import 'partials/colors';
 @import 'partials/fonts';
+
+/* Component styles */
+@import 'components/header';
+
+/* Reset default margins and padding */
 @import 'partials/reset';
