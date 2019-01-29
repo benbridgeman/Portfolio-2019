@@ -1,11 +1,19 @@
-$main-font-color: #333;
-$header-font-color: #ccc;
+$light-color: #eaf0f2;
+$dark-color: #292c2f;
+$burnt-sienna: #ED6166;
+$apricot: #EC9274;
+
+$body-bg-color: $light-color;
+$header-font-color: $apricot;
+$header-link-color: $light-color;
+$header-link-active-color: $apricot;
+$header-bg-color: $dark-color;
+$main-font-color: $dark-color;
+
+$white: #fff;
+$black: #000;
 
 body {
     color: $main-font-color;
-    background-color: #eaf0f2;
-}
-
-h2 {
-    color: $header-font-color;
+    background-color: $body-bg-color;
 }

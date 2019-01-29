@@ -1,5 +1,5 @@
 .header-container {
-    background : #292c2f;
+    background : $header-bg-color;
     padding: 1.5em;
     display: flex;
     flex-wrap: wrap;
@@ -8,6 +8,7 @@
 h2 {
     margin: 0;
     padding: 0 1.5em 0 0;
+    color: $header-font-color;
 }
 
 nav {
@@ -15,10 +16,14 @@ nav {
     
     a {
         text-decoration: none;
-        color: #ccc;
+        color: $header-link-color;
         padding: 0 0.5em 0 0.5em;
     }
     a:hover {
-        color: #fff;
+        color: $header-link-active-color;
+        transition: 0.3s;
+    }
+    a:active {
+        color: $header-link-active-color;
     }
 }
