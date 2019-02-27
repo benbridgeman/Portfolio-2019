@@ -1,1 +1,63 @@
-@import"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600";@import"https://fonts.googleapis.com/css?family=Roboto+Slab";body{color:#292c2f;background-color:#eaf0f2}body{font-family:"Open Sans",sans-serif;font-weight:lighter}h1,h2,h3,h4,h5,h6{font-family:"Roboto Slab",serif}.header-container{background:#292c2f;padding:1.5em;display:flex;flex-wrap:wrap}h2{margin:0;padding:0 1.5em 0 0;color:#ec9274}nav{align-self:center}nav a{text-decoration:none;color:#eaf0f2;padding:0 .5em 0 .5em}nav a:hover{color:#ec9274;transition:.3s}nav a:active{color:#ec9274}html,body,ul,ol{margin:0;padding:0}/*# sourceMappingURL=app.css.map */
+/* Global styles */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+body {
+  color: #292c2f;
+  background-color: #eaf0f2;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Component styles */
+.header-container {
+  background: #292c2f;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header-heading {
+  align-content: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0 1.5em 0 0;
+  color: #EC9274;
+}
+
+nav {
+  align-self: center;
+}
+nav a {
+  text-decoration: none;
+  color: #eaf0f2;
+  padding: 0 0.5em 0 0.5em;
+}
+nav a:hover {
+  color: #EC9274;
+  transition: 0.3s;
+}
+nav a:active {
+  color: #EC9274;
+}
+
+/* Reset default margins and padding */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=app.css.map */
