@@ -32,7 +32,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .header-heading {
@@ -47,6 +47,12 @@ h2 {
 
 nav {
   align-self: center;
+  display: block;
+}
+@media screen and (max-width: 550px) {
+  nav {
+    display: none;
+  }
 }
 nav a {
   text-decoration: none;
@@ -59,6 +65,40 @@ nav a:hover {
 }
 nav a:active {
   color: #EC9274;
+}
+
+.nav-icon {
+  width: 40px;
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  .nav-icon {
+    display: block;
+  }
+}
+
+.nav-icon:after,
+.nav-icon:before,
+.nav-icon div {
+  background-color: #fff;
+  border-radius: 3px;
+  content: "";
+  display: block;
+  height: 5px;
+  margin: 7px 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-icon:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.nav-icon:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.nav-icon:hover div {
+  transform: scale(0);
 }
 
 /* Reset default margins and padding */
