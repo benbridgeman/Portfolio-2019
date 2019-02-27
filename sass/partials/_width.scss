@@ -1,0 +1,8 @@
+$large-width: 1200px;
+
+%global-width {
+    max-width: $large-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
