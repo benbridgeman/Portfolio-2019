@@ -25,6 +25,7 @@ main, .header-container {
 /* Component styles */
 header {
   background: #292c2f;
+  border-bottom: 5px solid #EC9274;
 }
 
 .header-container {
