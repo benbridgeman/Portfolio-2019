@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ben Bridgeman - Portfolio 2019</title>
-    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="../styles/app.css">
 </head>
 
 <body>
@@ -26,12 +26,15 @@
     </header>
     <main>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div id="showcase"></div>
+        <div class="showcase-container" id="showcase"></div>
     </main>
     <footer>
 
@@ -41,9 +44,9 @@
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    
+
     <!-- Load our React component. -->
-    <script src="showcase.js"></script>
+    <script src="../scripts/components/Showcase.js"></script>
 
     <!-- Firebase Initialization Start -->
     <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
@@ -60,7 +63,7 @@
         firebase.initializeApp(config);
     </script>
     <!-- Firebase Initialization End -->
-    
+
 </body>
 
 </html>
